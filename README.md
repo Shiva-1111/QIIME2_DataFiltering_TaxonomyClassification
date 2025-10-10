@@ -120,7 +120,7 @@ qiime metadata tabulate \
 - Callahan BJ et al., Nat Methods, 2016 – **DADA2**.
 
 ## 👤 Author
-Developed by **G. Sivasubramaniyan**  
+**G. Sivasubramaniyan**  
 PhD Research Scholar, Department of Microbiology  
 Sri Ramachandra Institute of Higher Education and Research (SRIHER), Chennai, India  
 Email id: shivaviro24@gmail.com, sivasubramaniyan@sriramachandra.edu.in
