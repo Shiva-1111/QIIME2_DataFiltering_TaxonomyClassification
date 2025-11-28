@@ -29,6 +29,7 @@ QIIME2 understands the format of your sequence files
 Read orientation and metadata are correctly recognized
 Downstream tools like DADA2 can process the data
 
+```bash
 qiime tools import \
 --type 'SampleData[PairedEndSequencesWithQuality]' \
 --input-path fastq_files \
