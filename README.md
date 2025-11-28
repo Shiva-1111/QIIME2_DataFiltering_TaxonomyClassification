@@ -21,6 +21,14 @@ bash
 conda activate miniforg/envs/qiime2-amplicon-2023.9.
 
 # Import sequences
+## Before running any analysis, QIIME2 needs raw FASTQ files converted into a .qza artifact.
+This step imports your paired-end sequencing data in Casava 1.8 format (the standard Illumina naming structure) and packages it as a QIIME2 artifact (SampleData[PairedEndSequencesWithQuality]), which can then be used for demultiplexing, quality visualization, and denoising.
+
+This ensures:
+QIIME2 understands the format of your sequence files
+Read orientation and metadata are correctly recognized
+Downstream tools like DADA2 can process the data
+
 qiime tools import \
 --type 'SampleData[PairedEndSequencesWithQuality]' \
 --input-path fastq_files \
